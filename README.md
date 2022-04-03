@@ -28,4 +28,4 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
-[img] (https://github.com/AlexRahmanov/Weather-Dashboard/blob/63b2da214689a13306f8481ea5289f40f15597fa/assets/dashweather.jpg)
+![Alt text](https://github.com/AlexRahmanov/Weather-Dashboard/blob/63b2da214689a13306f8481ea5289f40f15597fa/assets/dashweather.jpg)
