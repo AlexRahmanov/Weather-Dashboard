@@ -1,0 +1,161 @@
+:root {
+    --primary: #ffffff;
+    --secondary: #0d397a;
+    --tertiary: #f5f5f5;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary);
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  /* stylizing for header */
+  
+  header {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    margin: 0;
+    color: var(--secondary #000000);
+    line-height: 1.25;
+  }
+  
+  /* stylizing for search bar */
+  
+  .city-search {
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    background-color: var(--tertiary);
+  }
+  
+  button {
+    background-color: royalblue;
+    color: var(--primary);
+    font-size: 24px;
+  }
+  
+  button:hover {
+    border-color: lightblue;
+    outline: lightblue;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* stylizing for city list */
+  
+  .city-list:hover {
+    cursor: pointer;
+  }
+  
+  /* stylizing for header */
+  
+  .five-day {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+  }
+  
+  .card-header {
+    margin-top: 15px;
+  }
+  
+  .future-weather {
+    justify-content: space-evenly;
+  }
+  
+  /* FLEX CONTENT */
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .justify-space-between {
+    justify-content: space-between;
+  }
+  
+  .justify-space-around {
+    justify-content: space-around;
+  }
+  
+  .justify-flex-start {
+    justify-content: flex-start
+  }
+  
+  .justify-flex-end {
+    justify-content: flex-end;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .align-stretch {
+    align-items: stretch;
+  }
+  
+  .align-end {
+    align-items: flex-end;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  /* Media query for 1466px */
+  
+  @media screen and (max-width: 1466px) {
+    .card-header {
+      display: inline;
+    }
+  }
+  
+  /* Media query for 1290px */
+  
+  @media screen and (max-width: 1290px) {
+    .card-header {
+      display: grid;
+    }
+  }
+  
+  /* Media query for 1220px */
+  
+  @media screen and (max-width: 1220px) {
+    .card-header {
+      display: inline;
+    }
+  }
+  
+  /* Media query for 780px */
+  
+  @media screen and (max-width: 780px) {
+    .card-header {
+      display: contents;
+    }
+  }
